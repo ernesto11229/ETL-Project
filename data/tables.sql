@@ -9,7 +9,6 @@ CREATE TABLE gun_deaths (
 
 );
 
-
 CREATE TABLE police_deaths (
  	cause VARCHAR NOT NULL,
  	date DATE,
@@ -17,5 +16,9 @@ CREATE TABLE police_deaths (
  	state varchar
 	
 );
+
+
+
+
 
 
