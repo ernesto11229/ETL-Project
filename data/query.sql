@@ -14,6 +14,11 @@ select state,
 from police_deaths where canine = false group by state;
 
 
+select state, 
+	sum (deaths) as not_only_police_death_count
+	
+from gun_deaths group by state;
+
 
 
 
