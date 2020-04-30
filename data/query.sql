@@ -1,3 +1,4 @@
+CREATE VIEW police_death_summary AS
 with pd as (
 select state, 
 	count (*) as death_count,
